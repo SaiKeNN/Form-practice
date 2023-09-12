@@ -14,20 +14,20 @@
         </div>
     <div class="container">
         <form class="login-form" action="" id="f1">
-            <input id="fName" type="text"  placeholder="Enter your First Name">
+            <input id="fName" type="text"  placeholder="Enter your First Name" required>
             <br>
             <br>
-            <input id="lName" type="text" placeholder="Enter your Last Name">
+            <input id="lName" type="text" placeholder="Enter your Last Name" required>
             <br>
             <br>
             <label id="dob"> Date of Birth  : </label>
-            <input id="dob1" type="date">
+            <input id="dob1" type="date" required>
             <br>
             <br>
-            <span>Email : </span><input id="email" type="email">
+            <span>Email : </span><input id="email" type="email" required>
             <br>
             <br>
-            <span>address : </ADdress></span><textarea id="address" cols="20" rows="3"></textarea>
+            <span>address : </ADdress></span><textarea id="address" cols="20" rows="3 required"></textarea>
             <br>
             <br>
             <button id="submit">Submit</button>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="container2" style="display: none;">
-        <h2>Entered Data</h2>
+        <h2></h2>
         <table id="data-table" border="1">
             <tr>
                 <th>First Name</th>

@@ -7,11 +7,13 @@ body {
 }
 
 #fName{
-    margin-left: 58px;
+    text-align: center;
+    padding-right: 60px;
 }
 
 #lName{
-    margin-left: 58px;
+    text-align: center;
+    padding-right: 60px;
 }
 
 #dob1{
@@ -30,8 +32,8 @@ body {
 }
 
 #logo{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 #dob{
@@ -41,7 +43,7 @@ body {
 .container{
     width: 300px;
     height: auto;
-    margin: 100px 0 0 520px;
+    margin: 110px 0 0 520px;
 }
 
 #submit{
@@ -55,5 +57,11 @@ body {
 
 #submit:hover{
     background-color: #ff008c;
+}
+
+.container2{
+    margin : 50px 00 00 410px;
+    color: black;
+    font-style: bold;
 }
 
