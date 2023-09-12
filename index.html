@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="table.html">
+</head>
+<body style="background-image: url('https://wallpapercave.com/wp/wp11165449.jpg');">
+    <div class="navbar">
+        <img id="logo" src="jiologo.png" alt="#">
+        <span class="tmname">TEAM DSM</span>
+        </div>
+    <div class="container">
+        <form class="login-form" action="" id="f1">
+            <input id="fName" type="text"  placeholder="Enter your First Name">
+            <br>
+            <br>
+            <input id="lName" type="text" placeholder="Enter your Last Name">
+            <br>
+            <br>
+            <label id="dob"> Date of Birth  : </label>
+            <input id="dob1" type="date">
+            <br>
+            <br>
+            <span>Email : </span><input id="email" type="email">
+            <br>
+            <br>
+            <span>address : </ADdress></span><textarea id="address" cols="20" rows="3"></textarea>
+            <br>
+            <br>
+            <button id="submit">Submit</button>
+            <br>
+            
+        </form>
+    </div>
+
+    <div class="container2" style="display: none;">
+        <h2>Entered Data</h2>
+        <table id="data-table" border="1">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>DOB</th>
+                <th>Email</th>
+                <th>Address</th>
+            </tr>
+        </table>
+    </div>
+</form>
+<script src="table.js"></script>
+</body>
+</html>
