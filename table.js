@@ -36,3 +36,11 @@ document.addEventListener("DOMContentLoaded", function() {
         dataContainer.style.display = "block";
     });
 });
+
+let calculate = (a,b) =>{
+    let add = a+b;
+    let sub = a-b;
+    return [add,sub];
+}
+
+const [add,sub] = calculate(3,5);
